@@ -1,0 +1,53 @@
+[{
+        "id": "1",
+        "name": "Iphone",
+        "price": "1000",
+        "img": "../src/images/iphone 13 Pro Max.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Samsung-Galaxy-A23",
+        "price": "7000",
+        "img": "../src/images/Samsung-Galaxy-A23.jpg"
+    },
+    {
+        "id": "3",
+        "name": "Samsung Galaxy A13",
+        "price": "600",
+        "img": "../src/images/Samsung Galaxy A13.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Samsung Galaxy S22 Ultra",
+        "price": "500",
+        "img": "../src/images/Samsung Galaxy S22 Ultra.jpg"
+    }, {
+        "id": "5",
+        "name": "Redmi K50 Pro",
+        "price": "400",
+        "img": "../src/images/Redmi K50 Pro.jpg"
+    },
+    {
+        "id": "6",
+        "name": "Poco M4 Pro",
+        "price": "450",
+        "img": "../src/images/Poco M4 Pro.png"
+    },
+    {
+        "id": "7",
+        "name": "Redmi Note 11S",
+        "price": "800",
+        "img": "../src/images/Redmi Note 11S.jpg"
+    },
+    {
+        "id": "8",
+        "name": "Redmi Note 11 (China)",
+        "price": "900",
+        "img": "../src/images/Redmi Note 11 (China).jpg"
+    }, {
+        "id": "9",
+        "name": "Redmi Note 10 Lite",
+        "price": "750",
+        "img": "../src/images/Redmi Note 10 Lite.jpg"
+    }
+]
