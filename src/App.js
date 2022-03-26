@@ -19,7 +19,7 @@ function App() {
     const isExit = mobileCart.find(item => item === mobile)
     if (isExit === undefined) {
       if (mobileCart.length > 3) {
-        return alert('you can add more then 4')
+        return alert('You can not add more then 4')
       }
       else {
         setMobileCart([...mobileCart, mobile])
