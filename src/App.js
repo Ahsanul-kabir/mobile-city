@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import './App.css';
+import Footer from './component/Footer/Footer';
 import Header from './component/Header/Header';
 import Mobile from './component/Mobile/Mobile';
 import ShoppingCard from './component/ShoppingCard/ShoppingCard';
@@ -64,6 +65,10 @@ function App() {
           </div>
         </div>
       </main>
+
+      <footer className='container mb-5'>
+        <Footer />
+      </footer>
     </div>
   );
 }
