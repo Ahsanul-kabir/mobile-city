@@ -2,52 +2,52 @@
         "id": "1",
         "name": "Iphone",
         "price": "1000",
-        "img": "../src/images/iphone 13 Pro Max.jpg"
+        "img": "https://fdn.gsmarena.com/imgroot/news/21/09/iphone-13-pro-announced/popup/-315/gsmarena_010.jpg"
     },
     {
         "id": "2",
         "name": "Samsung-Galaxy-A23",
         "price": "7000",
-        "img": "../src/images/Samsung-Galaxy-A23.jpg"
+        "img": "https://i0.wp.com/www.mobiledor.com/wp-content/uploads/Samsung-Galaxy-A23-Bangladesh.jpg?fit=400%2C400&ssl=1"
     },
     {
         "id": "3",
         "name": "Samsung Galaxy A13",
         "price": "600",
-        "img": "../src/images/Samsung Galaxy A13.jpg"
+        "img": "https://gizmobo.com/wp-content/uploads/2021/12/Samsung-Galaxy-A13-5G-1.webp"
     },
     {
         "id": "4",
         "name": "Samsung Galaxy S22 Ultra",
         "price": "500",
-        "img": "../src/images/Samsung Galaxy S22 Ultra.jpg"
+        "img": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s22-ultra-5g-2.jpg"
     }, {
         "id": "5",
         "name": "Redmi K50 Pro",
         "price": "400",
-        "img": "../src/images/Redmi K50 Pro.jpg"
+        "img": "https://fdn.gsmarena.com/imgroot/news/22/03/redmi-k50-k50pro-ofic/inline/-x315/gsmarena_014.jpg"
     },
     {
         "id": "6",
         "name": "Poco M4 Pro",
         "price": "450",
-        "img": "../src/images/Poco M4 Pro.png"
+        "img": "https://i0.wp.com/www.mobiledor.com/wp-content/uploads/Xiaomi-Poco-M4-Pro-5G-Bangladesh.png?fit=400%2C400&ssl=1"
     },
     {
         "id": "7",
         "name": "Redmi Note 11S",
         "price": "800",
-        "img": "../src/images/Redmi Note 11S.jpg"
+        "img": "https://www.powerplanetonline.com/cdnassets/xiaomi_redmi_note_11s_gris_00_l.jpg"
     },
     {
         "id": "8",
         "name": "Redmi Note 11 (China)",
         "price": "900",
-        "img": "../src/images/Redmi Note 11 (China).jpg"
+        "img": "https://phonesdata.com/files/models/Xiaomi-Redmi-Note-11-4G-115.jpg"
     }, {
         "id": "9",
         "name": "Redmi Note 10 Lite",
         "price": "750",
-        "img": "../src/images/Redmi Note 10 Lite.jpg"
+        "img": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-mi-note-10-lite-3.jpg"
     }
 ]

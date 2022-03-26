@@ -1,9 +1,12 @@
-import './App.css';
-import fakeData from './fakeData/fakeData.json';
 import { useEffect, useState } from 'react';
-function App() {
+import './App.css';
+import Header from './component/Header/Header';
+import Mobile from './component/Mobile/Mobile';
+import fakeData from './fakeData/fakeData.json'
 
-  const [mobiles, setMobiles] = useState([]);
+function App() {
+  const [mobiles, setMobiles] = useState([])
+
   useEffect(() => {
     setMobiles(fakeData);
   }, [])
@@ -11,7 +14,20 @@ function App() {
 
   return (
     <div className="">
-      <h1>{mobiles.length}</h1>
+      <Header />
+      <main className='container my-3'>
+        <div className="row">
+          <div className="col-sm-12 col-md-9 g-4">
+            <div className='row row-cols-1 row-cols-md-2 d-flex justify-content-center'>
+              {mobiles.map(mobile => <Mobile key={mobile.id} mobile={mobile} />)}
+            </div>
+          </div>
+
+          <div className='col-sm-12 col-md-3'>
+            <h1>text</h1>
+          </div>
+        </div>
+      </main>
     </div>
   );
 }
