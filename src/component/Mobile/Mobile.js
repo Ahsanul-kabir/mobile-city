@@ -10,7 +10,7 @@ const Mobile = ({ mobile, addMobile }) => {
             <img src={img} className="card-img-top h-75" alt={'Image can load'} />
             <div className="card-body">
                 <h5 className="card-title">{name}</h5>
-                <p className="card-text">Price: {price}</p>
+                <p className="card-text">Price: ৳{price}</p>
                 <button className="btn btn-info w-100" onClick={() => addMobile(mobile)}>Take Now  <FontAwesomeIcon icon={faShoppingCart} ></FontAwesomeIcon> </button>
             </div>
         </div>
