@@ -28,6 +28,12 @@ function App() {
     setMobileCart(newCart)
   }
 
+  const randomMobile = () => {
+    const random = Math.floor(Math.random() * mobileCart.length)
+    setMobileCart([])
+    setMobileCart([mobileCart[random]])
+  }
+
   return (
     <div className="">
       <Header />
@@ -41,8 +47,12 @@ function App() {
 
           <div className='col-sm-12 col-md-3'>
             {
-              mobileCart.map((cartItem, key) => <ShoppingCard key={cartItem.id} cartItem={cartItem} removeItem={removeItem} />)
+              mobileCart.map((cartItem) => <ShoppingCard key={cartItem.id} cartItem={cartItem} removeItem={removeItem} />)
             }
+
+            <button onClick={() => randomMobile()} className="card-link btn btn-warning my-5">
+              Select One For Me
+            </button>
           </div>
         </div>
       </main>
