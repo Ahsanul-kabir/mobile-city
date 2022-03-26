@@ -34,6 +34,10 @@ function App() {
     setMobileCart([mobileCart[random]])
   }
 
+  const clearAll = () => {
+    setMobileCart([])
+  }
+
   return (
     <div className="">
       <Header />
@@ -50,8 +54,12 @@ function App() {
               mobileCart.map((cartItem) => <ShoppingCard key={cartItem.id} cartItem={cartItem} removeItem={removeItem} />)
             }
 
-            <button onClick={() => randomMobile()} className="card-link btn btn-warning my-5">
+            <button onClick={() => randomMobile()} className="card-link btn btn-secondary my-5 w-75">
               Select One For Me
+            </button>
+            <br />
+            <button onClick={() => clearAll()} className="card-link btn btn-warning my-2 w-75">
+              Clear All
             </button>
           </div>
         </div>
