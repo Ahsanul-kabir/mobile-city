@@ -66,6 +66,7 @@ function App() {
 
           <div className='col-sm-12 col-md-3'>
             {/* remove mobiles */}
+            <p className="text-center fw-bold">Total Items : {mobileCart.length}</p>
             {
               mobileCart.map((cartItem) => <ShoppingCard key={cartItem.id} cartItem={cartItem} removeItem={removeItem} />)
             }
