@@ -6,7 +6,7 @@ const ShoppingCard = ({ cartItem, removeItem }) => {
 
     const { name } = cartItem
     return (
-        <div className="card" style={{ width: "18rem", marginTop: "10px" }}>
+        <div className="card  mx-auto" style={{ width: "18rem", marginTop: "10px" }}>
             <div className="card-body d-flex justify-content-between">
                 <h5 className="card-title">{name}</h5>
                 <button onClick={() => removeItem(cartItem)} className="card-link btn btn-danger">

@@ -55,8 +55,8 @@ function App() {
       <main className='container my-3'>
         <h1 className='text-center fw-bold'>Mobile City</h1>
         <div className="row">
-          <div className="col-sm-12 col-md-9 g-4">
-            <div className='row row-cols-1 row-cols-md-2 d-flex justify-content-center'>
+          <div className="col-sm-12 col-md-8">
+            <div className='row row-cols-sm-1 row-cols-md-2 d-flex justify-content-center'>
               {/* add mobiles */}
               {
                 mobiles.map(mobile => <Mobile key={mobile.id} mobile={mobile} addMobile={addMobile} />)
@@ -64,7 +64,7 @@ function App() {
             </div>
           </div>
 
-          <div className='col-sm-12 col-md-3'>
+          <div className='col-sm-12 col-md-4'>
             {/* remove mobiles */}
             <p className="text-center fw-bold">Total Items : {mobileCart.length}</p>
             {
@@ -72,13 +72,13 @@ function App() {
             }
 
             {/* choose one mobile button*/}
-            <button onClick={() => randomMobile()} className="card-link btn btn-secondary my-5 w-75">
+            <button onClick={() => randomMobile()} className="card-link btn btn-secondary mt-5 w-50 d-grid gap-2 col-6 mx-auto">
               Select One For Me
             </button>
             <br />
 
             {/* clear all mobiles button*/}
-            <button onClick={() => clearAll()} className="card-link btn btn-warning my-2 w-75">
+            <button onClick={() => clearAll()} className="card-link btn btn-warning mt-3 w-50 d-grid gap-2 col-6 mx-auto">
               Clear All
             </button>
           </div>
