@@ -5,12 +5,6 @@
         "img": "https://fdn.gsmarena.com/imgroot/news/21/09/iphone-13-pro-announced/popup/-315/gsmarena_010.jpg"
     },
     {
-        "id": "2",
-        "name": "Samsung-Galaxy-A23",
-        "price": "7000",
-        "img": "https://i0.wp.com/www.mobiledor.com/wp-content/uploads/Samsung-Galaxy-A23-Bangladesh.jpg?fit=400%2C400&ssl=1"
-    },
-    {
         "id": "3",
         "name": "Samsung Galaxy A13",
         "price": "600",
@@ -26,12 +20,6 @@
         "name": "Redmi K50 Pro",
         "price": "400",
         "img": "https://fdn.gsmarena.com/imgroot/news/22/03/redmi-k50-k50pro-ofic/inline/-x315/gsmarena_014.jpg"
-    },
-    {
-        "id": "6",
-        "name": "Poco M4 Pro",
-        "price": "450",
-        "img": "https://i0.wp.com/www.mobiledor.com/wp-content/uploads/Xiaomi-Poco-M4-Pro-5G-Bangladesh.png?fit=400%2C400&ssl=1"
     },
     {
         "id": "7",
